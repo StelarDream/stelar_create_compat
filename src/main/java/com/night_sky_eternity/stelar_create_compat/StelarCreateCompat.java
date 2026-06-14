@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.night_sky_eternity.stelar_create_compat;
 
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.foundation.item.ItemDescription;
@@ -13,9 +13,9 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod(ExampleMod.ID)
-public class ExampleMod {
-    public static final String ID = "examplemod";
+@Mod(StelarCreateCompat.ID)
+public class StelarCreateCompat {
+    public static final String ID = "stelar_create_compat";
     public static final Logger LOGGER = LogManager.getLogger(ID);
 
     public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(ID)
@@ -24,7 +24,7 @@ public class ExampleMod {
                             .andThen(TooltipModifier.mapNull(KineticStats.create(item)))
             );
 
-    public ExampleMod(IEventBus modBus) {
+    public StelarCreateCompat(IEventBus modBus) {
         REGISTRATE.registerEventListeners(modBus);
 
         AllCreativeModeTabs.register();

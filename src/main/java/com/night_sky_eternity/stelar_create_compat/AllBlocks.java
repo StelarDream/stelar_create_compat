@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.night_sky_eternity.stelar_create_compat;
 
 /**
  * Block registration using Create's Registrate.

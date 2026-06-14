@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.night_sky_eternity.stelar_create_compat;
 
 import com.tterrag.registrate.util.entry.RegistryEntry;
 import net.minecraft.network.chat.Component;
@@ -9,9 +9,9 @@ import net.minecraft.world.item.Items;
 public class AllCreativeModeTabs {
 
     public static final RegistryEntry<CreativeModeTab, CreativeModeTab> MAIN_TAB =
-            ExampleMod.REGISTRATE.defaultCreativeTab("main_tab", builder ->
+            StelarCreateCompat.REGISTRATE.defaultCreativeTab("main_tab", builder ->
                     builder
-                            .title(Component.translatable("itemGroup." + ExampleMod.ID))
+                            .title(Component.translatable("itemGroup." + StelarCreateCompat.ID))
                             .icon(() -> new ItemStack(Items.HONEYCOMB))  // Replace with your own icon
                             .build()
             ).register();

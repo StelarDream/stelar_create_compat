@@ -1,9 +1,9 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.example.examplemod.mixin",
+  "package": "com.night_sky_eternity.stelar_create_compat.mixin",
   "compatibilityLevel": "JAVA_21",
-  "refmap": "examplemod.refmap.json",
+  "refmap": "stelar_create_compat.refmap.json",
   "client": [],
   "injectors": {
     "defaultRequire": 1
