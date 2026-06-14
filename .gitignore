@@ -1,3 +1,6 @@
+# Vscode
+.vscode
+
 # IntelliJ
 .idea/
 *.iml
@@ -40,3 +43,6 @@ Thumbs.db
 /assets/
 /data/
 /META-INF/
+
+# extra dependency
+libs

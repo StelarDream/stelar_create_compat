@@ -80,6 +80,10 @@ dependencies {
     compileOnly "mezz.jei:jei-${minecraft_version}-common-api:${jei_version}"
     compileOnly "mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}"
     runtimeOnly "mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}"
+
+    // Dynamic Trees - local JAR
+    compileOnly files('libs/dynamictrees-neoforge-1.21.1-1.7.2.jar')
+    runtimeOnly files('libs/dynamictrees-neoforge-1.21.1-1.7.2.jar')
 }
 
 // Template variable substitution for neoforge.mods.toml
