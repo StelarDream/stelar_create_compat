@@ -5,7 +5,8 @@
   "compatibilityLevel": "JAVA_21",
   "refmap": "stelar_create_compat.refmap.json",
   "mixins": [
-    "DynamicTreesCompat"
+    "DynamicTreesCompat",
+    "NoFarmlandTrampling"
   ],
   "client": [],
   "server": [],
